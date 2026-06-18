@@ -7,8 +7,8 @@ Independent project developed as part of a Biomedical Engineering portfolio at I
 ## Overview
 This project models the vascular system as a directed graph with biological properties (vessel diameter, length, and blood flux direction) and compares two pathfinding algorithms:
 
-- **A\*** — deterministic algorithm, guarantees optimal path
-- **ACO (Ant Colony Optimization)** — bio-inspired algorithm based on pheromone trails
+- **A\*** - deterministic algorithm, guarantees optimal path
+- **ACO (Ant Colony Optimization)** - bio-inspired algorithm based on pheromone trails
 
 Edge costs are computed using **Poiseuille's Law** (R = 8ηL / πr⁴), which models blood flow resistance as a function of vessel diameter and length - heavily penalizing narrow vessels.
 
