@@ -22,3 +22,9 @@ Edge costs are computed using **Poiseuille's Law** (R = 8ηL / πr⁴), which mo
 | 500 nodes | Poiseuille |    ACO    | **127.94**| 0.0980  |
 
 **Main finding:** The cost model determines which algorithm wins. With Poiseuille's law, A* outperforms ACO. With a simpler cost model, ACO finds lower-cost paths by exploring more alternatives.
+
+## Stack
+Python · NetworkX · NumPy · Matplotlib
+
+## Paper
+Full methodology, results and discussion available in `paper_final/`.
